@@ -11,7 +11,7 @@ abstract class Database
     {
        $this->host = $host;
        $this->db_name = $db_name;
-        $this->db_password = $db_password;
+       $this->db_password = $db_password;
        $this->db_user = $db_user;
     }
     

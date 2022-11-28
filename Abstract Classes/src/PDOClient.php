@@ -20,6 +20,7 @@ class PDOClient extends Database
         }
         return $this;
     }
+    
     public function get()
     {
         return $this->statement->fetchAll(PDO::FETCH_OBJ);
